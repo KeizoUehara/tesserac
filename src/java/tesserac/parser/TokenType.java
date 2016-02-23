@@ -8,5 +8,7 @@ public enum TokenType {
 	Operator,
 	Literal,
 	Identifier,
+	Indent,
+	Dedent,
 	EOF
 }

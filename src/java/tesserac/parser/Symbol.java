@@ -29,7 +29,9 @@ public class Symbol {
 	public int getColumn() {
 		return column;
 	}
-
+	public Object getValue() {
+		return value;
+	}
 	public String toString() {   
 		return "line "+line+", column "+column+",  type = "+type+(value == null ? "" : (", value: '"+value+"'"));
 	}

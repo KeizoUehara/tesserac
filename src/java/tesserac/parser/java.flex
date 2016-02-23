@@ -66,7 +66,7 @@ package tesserac.parser;
 LineTerminator = \r|\n|\r\n
 InputCharacter = [^\r\n]
 
-WhiteSpace = [ \t\f]
+WhiteSpace = [ \t\f]+
 
 /* comments */
 Comment = {TraditionalComment} | {EndOfLineComment} | 
